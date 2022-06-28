@@ -11,7 +11,7 @@ import { Recipe } from './pages/Recipe';
 function App() {
     return (
         <>
-            <BrowserRouter>
+            <BrowserRouter basename='/react-recipes-spa'>
                 <Header />
                 <main className='container content'>
                     <Routes>
